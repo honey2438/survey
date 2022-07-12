@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Interface</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" media="screen and (max-width:1110px)" href="phone.css">
-</head>
-
-<body>
-    <!-- navbar -->
-    <header class="container1">
-        <nav id="navbar">
-            <div id="logo">
-
-            </div>
-            <ul>
-                <li class="item"><a href="/" target="_blank">Home</a></li>
-                <li class="item"><a href="" target="_blank">Services</a></li>
-                <li class="item"><a href="">About Us</a></li>
-                <li class="item"><a href="" target="_blank">Contact Us</a></li>
-            </ul>
-        </nav>
-
-        </div>
-    </header>
-
-    <!-- navbar -->
-
-    <main>
-        <div id="box1">
-
-            <h1 id="primary">Create your own survey now <br>
-                <button class="btn">Get started</button>
-            </h1>
-
-
-        </div>
-        <div id="box2">
-
-        </div>
-    </main>
-
-    <!-- footer -->
-
-    <section id="footer">
+<section id="footer">
         <div class="container2">
             <div class="row text-center text-xs-center text-sm-left text-md-left container4">
                 <div class="col-xs-12 col-sm-4 col-md-4">
@@ -78,15 +30,14 @@
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <ul class="list-unstyled quick-links">
                         <h3>Contact Us</h3>
-                        <li><a href=""><i class="fa fa-angle-double-right"></i> Address : Tower C-IThum tower, Block
+                        <li><i class="fa fa-angle-double-right"></i> Address : Tower C-IThum tower, Block
                                 A,</li>
-                        <li> Industrial Area, Sector 62, Noida,</a></li>
+                        <li> Industrial Area, Sector 62, Noida,</li>
                         <li> Uttar Pradesh 201309</li>
                         <li><i class="fa fa-angle-double-right"></i> Number : +91-9773882173 ,
-                                +91-8755562295</a></li>
+                                +91-8755562295</li>
 
-                        <li><a href="mailto:info@growthguide.com" target="_blank" title="Design and developed by"><i
-                                    class="fa fa-angle-double-right"></i> Email: info@growthguide.co.in
+                        <li><i class="fa fa-angle-double-right"></i> Email: info@growthguide.co.in
                             </li>
 
                         <li><i class="fa fa-angle-double-right"></i>
@@ -104,6 +55,3 @@
             </div>
         </div>
     </section>
-</body>
-
-</html>

@@ -1,0 +1,55 @@
+#navbar::before {
+    content: " ";
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    opacity: 0.5;
+    z-index: -1;
+}
+#navbar {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background: url(../growth.png) center center / 102px 101px no-repeat;
+    margin: 10px 23px;
+    background-position-y: -8px;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li {
+    margin: 15px 70px;
+    list-style: none;
+
+}
+
+#navbar li a {
+    color: black;
+    display: block;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    padding: 10px 19px;
+    text-decoration: none;
+}
+
+#navbar li a:hover,
+.btn:hover {
+    color: white;
+    background-color: rgb(28, 28, 167);
+
+}
