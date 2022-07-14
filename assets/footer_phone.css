@@ -1,0 +1,12 @@
+#footer h3 {
+    padding-left: 0;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.container4{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom:30px;
+}
