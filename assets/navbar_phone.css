@@ -7,7 +7,10 @@
 #navbar {
     flex-direction: column;
     padding-bottom: 8px;
+<<<<<<< HEAD
     height:102px;
+=======
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
 }
 
 #navbar ul li a {

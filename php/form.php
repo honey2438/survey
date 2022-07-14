@@ -15,13 +15,28 @@
 
 <body>
     <?php include "../assets/header.php"; ?>
+<<<<<<< HEAD
     <form class="report-form" id="main-form" action="/register" method="post">
+=======
+    <form class="report-form" action="/register" method="post">
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
         <div class="form-header">
             <h1>Fill Your Basic Details</h1>
         </div>
 
 
         <div class="form-body">
+<<<<<<< HEAD
+=======
+
+            <!-- Name -->
+            <div class="group" id="group-name">
+                <div class="form-group">
+                    <label for="name" class="label-title">Name *</label>
+                    <input type="text" id="name" class="form-input" placeholder="Enter your name" required="required" />
+                </div>
+            </div>
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
             <!-- Age -->
             <div class="group" id="group-age">
                 <div class="form-group">

@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="../assets/navbar.css">
     <link rel="stylesheet" media="screen and (max-width:1110px)" href="../assets/navbar_phone.css">
     <link rel="stylesheet" href="../assets/footer.css">
+<<<<<<< HEAD
     <link rel="stylesheet" media="screen and (max-width:1110px)" href="../assets/footer_phone.css">
+=======
+    <link rel="stylesheet" media="screen and (max-width:750px)" href="../assets/footer_phone.css">
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
 </head>
 
 <body>
@@ -32,6 +36,7 @@
 
         </div>
     </main>
+<<<<<<< HEAD
     <div>
         <h1 id="primary">How it works</h1>
         <div id="para">
@@ -40,6 +45,8 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quasi possimus quod fugiat corrupti eaque minima, qui atque tempora facilis architecto illum! Iste quo quod minima, voluptates molestiae sed inventore voluptas fuga.
         </div>
     </div>
+=======
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
 <!-- main -->
 
     <!-- footer -->
