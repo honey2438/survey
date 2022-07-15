@@ -1,0 +1,142 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+body{
+    background-color: #fdf7ef;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top:65px;
+}
+
+#content-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:90px auto;
+}
+#content{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    box-shadow: 0px 0px 20px 8px grey;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+
+#para{
+    width:100%;
+    height: 650px;
+   background:url('../flowchart2.jpg') no-repeat center center;
+   background-size: 100% auto;
+}
+#box1 {
+    height: 620px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box2 {
+    width: 40%;
+    height: 620x;
+    background: url(../bg__2_-removebg-preview.png) no-repeat;
+    background-size: auto 80%;
+    background-position-y: 53px;
+    background-position-x: -35px;
+    opacity: 0.9;
+}
+
+#primary {
+    width: 60%;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 10px grey;
+}
+
+#secondary{
+    font-size:3rem;
+    font-weight: bolder;
+    color: black;
+    margin:30px 0px;
+}
+.btn {
+    color: rgb(29, 29, 29);
+    display: inline;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 205px;
+    font-size: 1.6rem;
+    padding: 10px 19px;
+    font-weight: bolder;
+    border: 1px solid #15cfad;
+    background-color: #15cfad;
+    box-shadow: 0px 0px 20px 8px #15cfad;
+}
+.btn:hover{
+    background-color: rgb(43, 190, 153);
+}
+/* responsive */
+@media (max-width:1110px){
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:100px;
+    }
+    .btn{
+        color: black;
+        display: inline ;
+        border-radius: 10px;
+        margin-top:40px;
+        width:15rem;
+        font-size: 1.6rem;
+        padding: 4px 6px;
+        font-weight: bolder;
+    }
+    #primary {
+        width: 70%;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bolder;
+        color:black;
+    }
+    #content-container{
+        margin:20px auto;
+    }
+    #content{
+        padding:5px auto;
+    }
+    #secondary{
+        font-size: 1.6rem;
+    }
+    #para{
+        width:100%;
+        height: 395px;
+       background:url('../flowchart2.jpg') no-repeat center center;
+       background-size: 100% auto;
+    }
+    
+    #box2 {
+        width: 100%;
+        height: 315px;
+        background: url(../bg__2_-removebg-preview.png) no-repeat center center;
+        background-size: 328px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+    #box1 {
+        height: 400px;
+        width: 100%;
+        margin-top:-100px;
+    }
+}
