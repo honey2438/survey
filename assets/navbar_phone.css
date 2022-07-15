@@ -1,0 +1,23 @@
+#logo {
+    height: 60px;
+    width: 60px;
+    background-size: 66px 66px;
+    margin: 5px 53px;
+}
+#navbar {
+    flex-direction: column;
+    padding-bottom: 8px;
+<<<<<<< HEAD
+    height:102px;
+=======
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#navbar ul li {
+    margin: 0px 0px;
+}

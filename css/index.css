@@ -2,6 +2,7 @@
     font-family: 'Ubuntu', sans-serif;
     margin: 0%;
 }
+<<<<<<< HEAD
 body{
     background-color: #fdf7ef;
 }
@@ -38,6 +39,35 @@ main {
 }
 #box1 {
     height: 620px;
+=======
+<<<<<<< HEAD
+=======
+
+.container1 {
+    box-shadow: 0px 0px 20px 10px gray;
+}
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
+/* navbar */
+
+/* navbar */
+
+/* main */
+main {
+    display: flex;
+    flex-direction: row;
+<<<<<<< HEAD
+    margin-top:100px;
+}
+
+#box1 {
+    height: 620px;
+=======
+}
+
+#box1 {
+    height: 570px;
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
+>>>>>>> 587b00a2aa177b37b63514ee0c8a719189198531
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -47,12 +77,30 @@ main {
 
 
 #box2 {
+<<<<<<< HEAD
     width: 40%;
     height: 620x;
     background: url(../bg__2_-removebg-preview.png) no-repeat;
     background-size: auto 80%;
     background-position-y: 53px;
     background-position-x: -35px;
+=======
+<<<<<<< HEAD
+    width: 40%;
+    height: 620x;
+    background: url(../bg\ \(2\).png) no-repeat;
+    background-size: auto 80%;
+    background-position-y: 53px;
+    background-position-x: -35px;
+=======
+    width: 45%;
+    height: 570px;
+    background: url(../bg.png) no-repeat;
+    background-size: auto 80%;
+    background-position-y: 53px;
+    background-position-x: 15px;
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
+>>>>>>> 587b00a2aa177b37b63514ee0c8a719189198531
     opacity: 0.9;
 }
 
@@ -60,6 +108,7 @@ main {
     width: 60%;
     font-size: 5rem;
     font-weight: bolder;
+<<<<<<< HEAD
     color: black;
     text-shadow: 0 0 10px grey;
 }
@@ -70,15 +119,30 @@ main {
     color: black;
     margin:30px 0px;
 }
+=======
+<<<<<<< HEAD
+    color: black;
+=======
+    color: rgb(28, 28, 167);
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
+    text-shadow: 0 0 10px grey;
+}
+
+>>>>>>> 587b00a2aa177b37b63514ee0c8a719189198531
 .btn {
     color: rgb(29, 29, 29);
     display: inline;
     border-radius: 10px;
     margin-top: 40px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 587b00a2aa177b37b63514ee0c8a719189198531
     width: 205px;
     font-size: 1.6rem;
     padding: 10px 19px;
     font-weight: bolder;
+<<<<<<< HEAD
     border: 1px solid #15cfad;
     background-color: #15cfad;
     box-shadow: 0px 0px 20px 8px #15cfad;
@@ -140,3 +204,24 @@ main {
         margin-top:-100px;
     }
 }
+=======
+    border: 1px solid rgba(57, 183, 118, 0.781);
+    box-shadow: 0px 0px 20px 8px rgba(57, 183, 118, 0.781);
+}
+.btn:hover{
+    background-color: rgba(57, 183, 118, 0.781);
+=======
+    width: 200px;
+    font-size: 1.6rem;
+    padding: 10px 19px;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 0px 0px 20px 8px gray;
+>>>>>>> f80bfe273f750436b93cae826c011525c6b65440
+}
+/* main */
+
+/* footer */
+
+/* footer */
+>>>>>>> 587b00a2aa177b37b63514ee0c8a719189198531
